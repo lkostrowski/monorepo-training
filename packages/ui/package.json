@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint *.ts*",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsc-watch"
   },
   "devDependencies": {
     "@types/react": "^17.0.37",
